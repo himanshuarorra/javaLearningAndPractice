@@ -60,7 +60,7 @@ public class BinarSearch {
 		}
 		if(flag==false)
 		{
-			System.out.println("Not found...");
+			System.out.println("Number Not found...");
 		}
 
 	}
