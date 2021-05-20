@@ -6,10 +6,13 @@ public class PrintUniqueNumber {
 
 	public static void main(String ar[])
 	{
-		int a[] = {4,5,5,5,4,6,6,9,4};
+		//int a[] = {4,5,5,5,4,6,6,9,4};
+		String str = "himanshu";
+		char a[] = str.toCharArray();
 		//Print unique number from the list
 
-		ArrayList<Integer> ab =new ArrayList<Integer>();
+		//ArrayList<Integer> ab =new ArrayList<Integer>();
+		ArrayList<Character> ab =new ArrayList<Character>();
 
 		for(int i=0;i<a.length;i++)
 		{

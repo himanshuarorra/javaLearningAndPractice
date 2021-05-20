@@ -23,7 +23,7 @@ public class InheritanceMultilevel extends InheritanceChild{
 
 		//This won't be able to access the method defined in this class
 		InheritanceChild p = new InheritanceMultilevel();
-	
+		((InheritanceMultilevel) p).getMl();   //Down casting to access it's child class
 		
 	}
 }

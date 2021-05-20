@@ -28,7 +28,7 @@ public class HashTableClass {
 		hm.remove("Job");
 		System.out.println(hm);
 
-		/*
+		
 		//using set to get key value pairs
 		Set s = hm.entrySet();
 		////Iterator
@@ -38,7 +38,7 @@ public class HashTableClass {
 			System.out.println(mp.getKey());
 			System.out.println(mp.getValue());
 		}
-		*/
+		
 
 
 	}
