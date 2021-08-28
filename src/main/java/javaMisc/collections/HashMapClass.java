@@ -17,7 +17,10 @@ public class HashMapClass {
 
 		HashMap<String,String> hm = new HashMap<String,String>();
 		hm.put("Name", "Himanshu");
+		hm.put(null, "Null");
+		hm.put(null, "NotNull");
 		hm.put("lastName", "Arora");
+		hm.put("lastName", "OverRide");		
 		hm.put("Job", "KuchNi");
 		System.out.println(hm);
 		System.out.println(hm.get("Job"));
