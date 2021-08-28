@@ -7,7 +7,7 @@ public class BinarSearch {
 		
 		//Elements should be sorted order
 		int a[] = {1,2,3,4,5,6,7,8,9,10};
-		int key = 2;
+		int key = 10;
 		
 		int l = 0;
 		int h = a.length-1;
@@ -16,7 +16,7 @@ public class BinarSearch {
 		System.out.println("mid "+mid);
 		boolean flag =false;
 		
-		/*for(int i=0;i<a.length;i++)
+		for(int i=0;i<a.length;i++)
 		{
 			if(a[mid]==key)
 			{
@@ -35,9 +35,9 @@ public class BinarSearch {
 				mid = (l+h)/2;
 				//a[mid]=l;
 			}
-		}*/
+		}
 		
-	   while(l<=h)
+	   /*while(l<=h)
 		{
 			int m = (l+h)/2;
 			
@@ -61,7 +61,7 @@ public class BinarSearch {
 		if(flag==false)
 		{
 			System.out.println("Not found...");
-		}
+		}*/
 
 	}
 

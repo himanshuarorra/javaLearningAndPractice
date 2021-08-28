@@ -216,10 +216,10 @@ class WebApiTests {
 
 		//Request data along with ost request
 		JSONObject reqParam = new JSONObject();
-		reqParam.put("sourceFilePath", "D:\\RestAssuredApiAutomation\\RestAssuredApiAutomation\\testData\\GN3LAXK1121D22018100541107070_nfnb (2).tiff");
-		reqParam.put("recognitionMode", "HighPerformance");
-		reqParam.put("barcodeTypes", "Code16K");
-		reqParam.put("numberOfPagesToBeRead", 1);
+		httpReq.queryParam("sourceFilePath", "D:\\RestAssuredApiAutomation\\RestAssuredApiAutomation\\testData\\GN3LAXK1121D22018100541107070_nfnb (2).tiff");
+		httpReq.queryParam("recognitionMode", "HighPerformance");
+		httpReq.queryParam("barcodeTypes", "Code16K");
+		httpReq.queryParam("numberOfPagesToBeRead", 1);
 
 		httpReq.header("Content-Type","application/json");
 

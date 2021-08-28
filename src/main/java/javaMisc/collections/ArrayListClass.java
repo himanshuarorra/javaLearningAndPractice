@@ -14,7 +14,7 @@ public class ArrayListClass {
 		//Initializing using add
 		a.add("Himanshu");
 		a.add("Arora");
-
+		
 		//Initializing using asList()
 		ArrayList<String> b = new ArrayList<String>(
 				Arrays.asList("Int","using","asList"));
@@ -52,7 +52,7 @@ public class ArrayListClass {
 
 		//get size
 		System.out.println(a.size());
-
+		
 
 		//Iterator
 		Iterator<String> itr = a.iterator();

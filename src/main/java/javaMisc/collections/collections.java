@@ -13,7 +13,7 @@ public class collections {
 	 * 		*HashSet
 	 * 		*LinkedHashSet
 	 * 		*TreeSet
-	 * 3.Map--Is an object that maps keys and values. Can't contais duplicated elements.
+	 * 3.Map--Is an object that maps keys and values. Can't contain duplicated elements.
 	 * 		*HashMap
 	 * 		*TreeMap
 	 * 		*LinkedHashMap

@@ -17,7 +17,7 @@ import java.util.List;
 
 public class ReuestSpecBuilder {
 
-	public static void main(String[] args) {
+	 static void main(String[] args) {
 		// TODO Auto-generated method stub
 		RestAssured.baseURI="https://rahulshettyacademy.com";
 
@@ -40,7 +40,7 @@ public class ReuestSpecBuilder {
 
 		RequestSpecification req =new RequestSpecBuilder().setBaseUri("https://rahulshettyacademy.com").addQueryParam("key", "qaclick123")
 				.setContentType(ContentType.JSON).build();
-
+		
 
 		ResponseSpecification resspec =new ResponseSpecBuilder().expectStatusCode(200).expectContentType(ContentType.JSON).build();
 		RequestSpecification res=given().spec(req)

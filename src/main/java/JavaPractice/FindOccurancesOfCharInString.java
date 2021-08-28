@@ -7,6 +7,12 @@ public class FindOccurancesOfCharInString {
 	
 	public static void main(String ar[])
 	{
+		String n = "This is a string";
+		String[] st = n.split(" ");
+		for(int i=0;i<st.length;i++) {
+		System.out.println(st[i]);
+		}
+		
 		String a = "aaabbbbca";
 		char[] b = a.toCharArray();
 		//List<Char> l = new ArrayList<String>();

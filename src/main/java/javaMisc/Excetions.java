@@ -11,9 +11,9 @@ public class Excetions {
 
 
 		try {
-			//int k = b/c;
+			int k = b/c;
 			//System.out.println(k);
-			System.out.println(d[6]);
+			//System.out.println(d[6]);
 		}
 
 		//ArithmaticException divide by zero
@@ -33,7 +33,7 @@ public class Excetions {
 
 		/*
 		 * Finally block will always execute even if ther's an exception
-		 *------We can avert execution of finally o block by program termination resulting jvm crash 
+		 *------We can avert execution of finally block by program termination resulting jvm crash 
 		 *------*by hitting stop button during execution
 		 *------*By using ===System.exit()====
 		 *A finally block will not execute due to other conditions like 
